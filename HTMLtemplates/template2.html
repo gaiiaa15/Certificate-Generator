@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.frame {
+    width:1000px;
+    height:800px;
+    position: relative;
+}
+    .frame img{
+        width:100%;
+        height:100%;
+    }
+
+    .certificate-container{
+        position: absolute;
+        top: 75px;
+        left: 50%;
+        width: calc(100% - 150px);
+        transform: translateX(-50%);
+    }
+
+    h1{
+        color: black;
+        text-align:center;
+        text-transform: uppercase;
+        font-family: "Lobster", 'Pinyon Script', cursive;
+    }
+
+    h2{
+        color:#5b62f2;
+        text-align:center;
+        text-transform: uppercase;
+        font-family: "Lobster", 'Pinyon Script', cursive;
+
+
+    }
+
+    h3{
+        text-transform: uppercase;
+        font-family: "Lobster", 'Pinyon Script', cursive;
+        color: black;
+    }
+
+    p{
+        color: black;
+        text-align:center;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-family: "Lobster", 'Pinyon Script', cursive;
+    }
+
+    h3.sentence{
+        color:#5b62f2;
+        font-family: "Lobster",'Pinyon Script', cursive;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .name{
+        text-align: center;
+    }
+
+    h1.courseName{
+        color: black;
+        text-align:center;
+        text-transform: uppercase;
+        font-family: "Lobster", 'Pinyon Script', cursive;
+    }
+
+         .certificate-footer{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+         }
+
+         .data-value1{
+             font-size: 1rem;
+             text-align: center;
+
+         }
+
+         .data-value2{
+             font-size: 1rem;
+             text-align: center;
+         }
+
+
+
+         .data-label{
+             font-size: 1.1rem;
+             text-align: center;
+             text-transform: uppercase;
+
+         }
+         .separator-line1{
+             width: 100%;
+             height:1px;
+             background: #000;
+         }
+
+         .separator-line2{
+             width: 100%;
+             height:1px;
+             background: #000;
+         }
+
+
+         .logo-section{
+             width: 100px;
+             height: 100px;
+             margin: 0 .5rem;
+         }
+
+         .logo-section img{
+             width: 100%;
+             height: 100%;
+         }
+
+
+         .date-section,
+         .instructor-section{
+             width: calc(50% - 100px);
+         }
+
+
+     </style>
+</head>
+    <body>
+    <div class="frame">
+        <img src="fblue.png">
+
+       <div class="certificate-container">
+           <div class="title">
+               <h1>certificate</h1>
+               <h2>of completion</h2>
+           </div>
+
+           <div class="name">
+               <h3> this certificate is proudly presented to</h3>
+               <p>
+                   Gaiia Harb               </p>
+
+           </div>
+           <div>
+               <h3 class="sentence">
+                   has successfully completed
+               </h3>
+           </div>
+
+           <div>
+               <h1 class="courseName">
+                   Business               </h1>
+           </div>
+
+           <div class="certificate-footer">
+               <div class="date-section">
+                   <div class="data-value1">
+                       2024-10-20                   </div>
+
+                   <div class="separator-line1">
+                       <div class="data-label">
+                           Date
+                       </div>
+                   </div>
+
+               </div>
+
+
+               <div class="logo-section">
+                   <img src="certified.png">
+
+               </div>
+
+               <div class="instructor-section">
+                   <div class ="data-value2">
+                      ahsiuch                   </div>
+
+                   <div class="separator-line2">
+                       <div class="data-label">
+                           Instructor
+                       </div>
+                   </div>
+
+               </div>
+           </div>
+       </div>
+
+
+
+     </div>
+
+ </body>
+</html>
