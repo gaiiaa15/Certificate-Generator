@@ -1,5 +1,5 @@
 # Certificate-Generator
-# Certificate Generator
+
 ## How to run program
 ```
 1. Go to the main.java file in the CertificateGeneratorAPI package,(File Path: CertificateGeneratorAPI/src/main/java/Main).
